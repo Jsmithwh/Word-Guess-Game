@@ -1,0 +1,28 @@
+body {
+    background-image: url("../images/nightfade.png");
+    background-repeat: no-repeat;
+  }
+
+  .image {
+    margin-bottom: 30px;
+    float: none;
+  } 
+
+  .container {
+      float: right;
+      margin-top: 150px;
+  }
+  
+.img2 {
+    
+    margin-top: 10px;
+    float: right;
+}
+
+  ul {
+    text-align: left;
+}
+    
+li {
+    display: inline-block;
+}

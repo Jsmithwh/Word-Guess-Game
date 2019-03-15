@@ -21,7 +21,7 @@ for (i = 0; i < rand.length; i++) {
 progressWord.push("__");
 }
 //Switching the underscores on the screen
-document.getElementById("underscores").innerHTML = progressWord;
+document.getElementById("underscores").innerHTML = progressWord.join(" ");
 //keypress event
 //document.getElementById("letterBox").addEventListener("keypress", processLetter());
 
@@ -56,6 +56,6 @@ function processLetter() {
             alert("You Lose!")
         }
 
-        //Need to make game reset with refresh, need to properly link to HTML, need to figure out how to fix "null"
+        //Need to make game reset with refresh, 
         
 }
